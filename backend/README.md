@@ -1,15 +1,5 @@
 # Straits Digital Bank Backend
 
-Flask backend starter for the Straits Digital Bank school project.
-
-## Tech Stack
-
-- Python
-- Flask
-- Flask-CORS
-- `python-dotenv`
-- Mock/local setup for now
-
 ## Getting Started
 
 Create and activate a virtual environment:
