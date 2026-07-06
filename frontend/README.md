@@ -1,15 +1,5 @@
 # Straits Invest Frontend
 
-React + Vite template for the Straits Digital Bank school project.
-
-## Tech Stack
-
-- React + Vite
-- JavaScript
-- Bootstrap 5
-- Custom CSS in `src/styles`
-- Mock data only
-
 ## Getting Started
 
 Install dependencies:
