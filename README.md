@@ -1,6 +1,4 @@
-# Straits Invest Frontend
-
-## Getting Started
+## Getting Started for Frontend
 
 Install dependencies:
 
@@ -45,9 +43,7 @@ npm run build
 
 
 
-# Straits Digital Bank Backend
-
-## Getting Started
+## Getting Started for Backend
 
 Create and activate a virtual environment:
 
