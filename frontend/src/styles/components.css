@@ -1,0 +1,80 @@
+.brand-mark {
+  width: 52px;
+  height: 52px;
+  display: grid;
+  place-items: center;
+  border-radius: 0.75rem;
+  color: #ffffff;
+  background: var(--sdb-navy);
+  font-weight: 800;
+}
+
+.eyebrow {
+  color: var(--sdb-teal);
+  font-size: 0.76rem;
+  font-weight: 700;
+  letter-spacing: 0;
+  text-transform: uppercase;
+}
+
+.market-menu-toggle {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 0;
+  background: transparent;
+  text-align: left;
+}
+
+.market-menu-toggle::after {
+  content: "";
+  width: 0.55rem;
+  height: 0.55rem;
+  border-right: 2px solid currentColor;
+  border-bottom: 2px solid currentColor;
+  transform: rotate(45deg);
+  transition: transform 0.15s ease;
+}
+
+.market-menu-toggle.open::after {
+  transform: rotate(225deg);
+}
+
+.market-menu-panel {
+  display: grid;
+  gap: 0.35rem;
+  margin: 0.35rem 0 0.75rem;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 1rem;
+  padding: 0.7rem;
+  background: rgba(0, 8, 32, 0.55);
+}
+
+.market-menu-item {
+  display: block;
+  border-radius: 0.5rem;
+  padding: 0.55rem 0.65rem;
+  color: rgba(255, 255, 255, 0.82);
+  text-decoration: none;
+}
+
+.market-menu-item:hover,
+.market-menu-item.active {
+  color: #ffffff;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.price-bars {
+  height: 96px;
+  padding: 1rem;
+  border-radius: 0.75rem;
+  background: #f8f9fa;
+}
+
+.price-bars span {
+  flex: 1;
+  min-height: 18px;
+  border-radius: 0.35rem 0.35rem 0 0;
+  background: var(--sdb-teal);
+}

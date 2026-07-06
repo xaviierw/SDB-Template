@@ -1,0 +1,101 @@
+.auth-page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem 1rem;
+  background: var(--sdb-bg);
+}
+
+.auth-brand {
+  margin-bottom: 2rem;
+}
+
+.auth-brand h1 {
+  color: #102984;
+  font-size: clamp(2.25rem, 8vw, 4rem);
+  letter-spacing: 0;
+}
+
+.auth-card {
+  width: min(100%, 590px);
+  border: 1px solid #d8dce3;
+  background: #ffffff;
+  box-shadow: 0 1rem 2rem rgba(15, 23, 42, 0.06);
+}
+
+.auth-form {
+  padding: 2.5rem;
+}
+
+.auth-field {
+  display: flex;
+  align-items: center;
+  border: 1px solid #d8dce3;
+  border-radius: 0.75rem;
+  padding: 0.85rem 1rem;
+  margin-bottom: 1.25rem;
+  background: #ffffff;
+}
+
+.auth-field .form-control {
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  box-shadow: none;
+  padding: 0;
+}
+
+.auth-submit {
+  min-height: 48px;
+  font-weight: 700;
+}
+
+.auth-link {
+  color: #102984;
+  text-decoration: none;
+}
+
+.auth-link:hover {
+  text-decoration: underline;
+}
+
+.auth-provider {
+  min-height: 48px;
+  border: 1px solid #d8dce3;
+  border-radius: 0.75rem;
+  color: var(--sdb-navy);
+  background: #ffffff;
+  font-weight: 700;
+}
+
+.auth-provider:hover {
+  background: #f4f6f9;
+}
+
+.paypal-provider {
+  color: #003087;
+  background: #ffffff;
+}
+
+.paypal-provider:hover {
+  color: #003087;
+  background: #f4f6f9;
+}
+
+.paypal-button {
+  border: 1px solid #e2a500;
+  color: var(--sdb-navy);
+  background: #ffc439;
+  font-weight: 800;
+}
+
+.paypal-button:hover {
+  background: #f5b728;
+}
+
+@media (max-width: 575.98px) {
+  .auth-form {
+    padding: 1.5rem;
+  }
+}
