@@ -3,7 +3,7 @@ import Navbar from './Navbar'
 
 function AppLayout() {
   return (
-    <div className="app-shell d-lg-flex">
+    <div className="app-shell d-flex flex-column">
       <Navbar />
       <main className="flex-grow-1 p-3 p-md-4">
         <div className="container-fluid">
