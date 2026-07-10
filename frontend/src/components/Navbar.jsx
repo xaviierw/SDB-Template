@@ -72,6 +72,10 @@ function Navbar() {
             <NavLink className="nav-link" onClick={closeMobileMenu} to="/trade">
               Trade
             </NavLink>
+            
+            <NavLink className="nav-link" onClick={closeMenus} to="/about">
+              About
+            </NavLink>
           </nav>
 
           <div className="top-navbar-actions nav nav-pills">
