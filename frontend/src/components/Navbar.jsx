@@ -73,7 +73,7 @@ function Navbar() {
               Trade
             </NavLink>
             
-            <NavLink className="nav-link" onClick={closeMenus} to="/about">
+            <NavLink className="nav-link" onClick={closeMobileMenu} to="/about">
               About
             </NavLink>
           </nav>
